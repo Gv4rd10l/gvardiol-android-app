@@ -1,5 +1,7 @@
 # gvardiol-android-app
 
+![logo](git-mopen.png)
+
 **gvardiol-android-app** is an intentionally vulnerable Android application developed for educational and training purposes. It allows cybersecurity students, ethical hackers, and penetration testers to practice identifying and exploiting common mobile security flaws in a controlled environment.
 
 > ⚠️ **Disclaimer:** This application is for educational use only. Do not install or use it on devices you do not own or have explicit permission to test.
