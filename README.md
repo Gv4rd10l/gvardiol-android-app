@@ -23,12 +23,12 @@ The goal of this project is to simulate real-world insecure mobile applications 
 
 **More vulnerabilities will be added in future versions, including:**
 
-  Insecure Data Storage
-  Hardcoded Credentials
-  Improper Authentication
-  Insecure Communication
-  Insercure Login
-  Certificate Pinning Bypass
+  - Insecure Data Storage
+  - Hardcoded Credentials
+  - Improper Authentication
+  - Insecure Communication
+  - Insercure Login
+  - Certificate Pinning Bypass
 
 ---
 
