@@ -49,6 +49,8 @@ import androidx.compose.material.Icon
 import android.content.Intent
 import android.net.Uri
 import android.widget.Toast
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material3.NavigationBarDefaults.containerColor
 
 class MainActivity : ComponentActivity() {
@@ -75,7 +77,7 @@ class MainActivity : ComponentActivity() {
                             contentColor = Color.White
                         ) {
                             BottomNavigationItem(
-                                icon = { Icon(Icons.Default.Person, contentDescription = "person") },
+                                icon = { Icon(Icons.Default.Settings, contentDescription = "settings") },
                                 selected = true,
                                 onClick = { /* TODO: handle navigation */ }
                             )
@@ -85,7 +87,12 @@ class MainActivity : ComponentActivity() {
                                 onClick = { /* TODO: handle navigation */ }
                             )
                             BottomNavigationItem(
-                                icon = { Icon(Icons.Default.Settings, contentDescription = "settings") },
+                                icon = { Icon(Icons.Default.Person, contentDescription = "person") },
+                                selected = true,
+                                onClick = { /* TODO: handle navigation */ }
+                            )
+                            BottomNavigationItem(
+                                icon = { Icon(Icons.Default.Notifications, contentDescription = "notification") },
                                 selected = true,
                                 onClick = { /* TODO: handle navigation */ }
                             )
@@ -159,7 +166,7 @@ fun welcome(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .background(Color.Transparent)
                 .clip(RoundedCornerShape(15.dp))
-                .height(height = 40.dp)
+                .height(height = 45.dp)
                 .width(width = 350.dp)
         )
         Spacer(modifier = Modifier.height(20.dp))
@@ -179,10 +186,10 @@ fun welcome(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .background(Color.Transparent)
                 .clip(RoundedCornerShape(15.dp))
-                .height(height = 40.dp)
+                .height(height = 45.dp)
                 .width(width = 350.dp)
         )
-        Spacer(modifier = Modifier.height(20.dp))
+        Spacer(modifier = Modifier.height(30.dp))
         Button(onClick = { /*TODO*/ }, modifier = Modifier
             .height(height = 40.dp)
             .width(width = 350.dp)
